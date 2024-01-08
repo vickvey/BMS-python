@@ -61,3 +61,6 @@ def input_money(start: double, end: double, input_prompt: str, input_error_warni
 # take = input_money(0.00, 10000000.00, "Please enter your deposit amount", "Please enter valid money deposit amount!!")
 # take = f"{take:.2f}"
 # print(f'You entered : Rs {take}!!')
+
+# a = input_number_in_range(100, 200, "Money")
+# print(f"you entered Rs {a}\n")
