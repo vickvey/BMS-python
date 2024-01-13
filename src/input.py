@@ -7,7 +7,7 @@ from numpy import double, real
 from rich.console import Console
 
 
-TEXT_WARNING = "Bakchodi Mat Kar Lawde"
+TEXT_WARNING = "Sahi number daal bhidu!! Galat daal rela hai!!"
 
 def input_number_in_range(start: int, end: int, input_type: str) -> int:
     console = Console()

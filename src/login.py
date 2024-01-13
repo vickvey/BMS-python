@@ -23,15 +23,14 @@ def login_page_options() -> int:
     print(f'Press 1: Create a new account in bank!')
     print(f'Press 2: Login to an existing account!')
     print(f'Press 3: Delete an existing account!')
-    print(f'Press any other key to exit!!')
+    print(f'Press 0: to exit!!')
     
-    take = input_number_in_range(1, 3, "login options")
+    take = input_number_in_range(0, 3, "login options")
     return take
 
 def create_new_account() -> dict:
     prompt = {}
 
-    # TODO: take valid account number from something
     prompt['Account number'] = input_number(6, "new Account number")
     prompt['Account pin'] = input_number(4, "new Account PIN")
     prompt['Account initial Balance'] = input_money(
@@ -64,3 +63,5 @@ def login_prompt() -> dict:
 # a = create_new_account()
 # print("\n\n")
 # print(a)
+
+

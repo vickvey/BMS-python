@@ -1,7 +1,7 @@
 from os_functions import clear_terminal
 from rich.console import Console
 
-BANK_NAME = "Lauda Lehsun Bank"
+BANK_NAME = "Ram Bharose Bank"
 
 class Welcome:
     @staticmethod
@@ -19,4 +19,4 @@ class Welcome:
         input()
 
 # Test
-Welcome.welcome()
+# Welcome.welcome()
